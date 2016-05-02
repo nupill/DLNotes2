@@ -1,0 +1,9 @@
+Options -Indexes
+php_flag register_globals off
+php_flag magic_quotes_gpc off
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|css|js|img|ckeditor|dat|test|last-status.html)
+RewriteRule ^(.*)$ /dlnotes2/index.php/$1 [L]
+
+php_value zlib.output_compression off

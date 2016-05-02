@@ -1,0 +1,18 @@
+body {
+	background-color:  : #F0F0F0;
+	margin-left: 50px;
+}
+
+.btn {
+	text-decoration: none;
+}
+
+.container {
+        width: 500px;
+        clear: both;
+        margin-left: 30px;
+    }
+.container input {
+        width: 100%;
+        clear: both;
+}
